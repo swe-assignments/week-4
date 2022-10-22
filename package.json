@@ -1,0 +1,33 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:d1:easy:addTwoNumbers": "jest ./tests/d1-tests/1-easy/addTwoNumbers --verbose --silent --runInBand",
+    "test:d1:easy:subtractTwoNumbers": "jest ./tests/d1-tests/1-easy/subtractTwoNumbers --verbose --silent --runInBand",
+    "test:d1:easy:multiplyTwoNumbers": "jest ./tests/d1-tests/1-easy/multiplyTwoNumbers --verbose --silent --runInBand",
+    "test:d1:medium:multiplyTwoIntegers": "jest ./tests/d1-tests/2-medium/multiplyTwoIntegers --verbose --silent --runInBand",
+    "test:d1:hard:addingArrays": "jest ./tests/d1-tests/3-hard/addingArrays --verbose --silent --runInBand",
+    "test:d2:easy:athlete": "jest ./tests/d2-classes/1-easy/athlete --verbose --silent --runInBand",
+    "test:d2:medium:laps": "jest ./tests/d2-classes/2-medium/laps --verbose --silent --runInBand",
+    "test:d2:hard:strava": "jest ./tests/d2-classes/3-hard/strava --verbose --silent --runInBand",
+    "test:d3:easy:static": "jest ./tests/d3-static/1-easy/static --verbose --silent --runInBand",
+    "test:d3:easy:inherit": "jest ./tests/d3-static/1-easy/inherit --verbose --silent --runInBand",
+    "test:d3:medium:party": "jest ./tests/d3-static/2-medium/party --verbose --silent --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swe-assignments/week-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swe-assignments/week-3/issues"
+  },
+  "homepage": "https://github.com/swe-assignments/week-3#readme",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}
